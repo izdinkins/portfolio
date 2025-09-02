@@ -1,0 +1,48 @@
+import { RevealOnScroll } from "../RevealOnScroll";
+import Lanyard from "../Landyard";
+
+export const Home = () => {
+  return (
+    <RevealOnScroll>
+      <div id="home" className="min-h-screen flex items-center justify-center relative px-8">
+        <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto">
+          {/* Left side: intro */}
+          <div className="text-left md:w-1/2 mb-12 md:mb-0">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-tight">
+              Hi, I'm Imani.
+            </h1>
+            <p className="text-gray-400 text-lg mb-8 max-w-md">
+              I'm a junior honors student majoring in computer science with a minor
+              in applied math. In my free time, I enjoy working out and cooking food.
+              I also enjoy making websites, editing videos, and doing puzzles. My
+              dream is to own my own cyber security firm and have multiple other
+              investments.
+            </p>
+            <div className="flex space-x-4">
+              <a
+                href="#projects"
+                className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(50,130,246,0.4)]"
+              >
+                View Projects
+              </a>
+              <a
+                href="#contact"
+                className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(50,130,246,0.2)] hover:bg-blue-500/10"
+              >
+                Contact Me
+              </a>
+            </div>
+          </div>
+          {/* Right side: Lanyard */}
+          <div className="md:w-1/2 min-h-[500px]">
+            <Lanyard
+              position={[0, 0, 20]}
+              gravity={[0, -40, 0]}
+              scale={[1.2, 1.2, 1.2]}
+            />
+          </div>
+        </div>
+      </div>
+    </RevealOnScroll>
+  );
+};

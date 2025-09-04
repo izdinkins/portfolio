@@ -45,7 +45,7 @@ export const Home = () => {
               handle="izdinkins"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="src/assets/IDHR.png"
+              avatarUrl="IDHR.png"
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}

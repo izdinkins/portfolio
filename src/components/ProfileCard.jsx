@@ -24,9 +24,9 @@ const adjust = (value, fromMin, fromMax, toMin, toMax) =>
 const easeInOutCubic = x => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
 
 const ProfileCardComponent = ({
-  avatarUrl = 'src/assets/IDHR.png',
-  iconUrl = 'src/assets/ncat.jpg',
-  grainUrl = 'src/assets/grain.jpg',
+  avatarUrl = 'IDHR.png',
+  iconUrl = 'ncat.jpg',
+  grainUrl = 'grain.jpg',
   behindGradient,
   innerGradient,
   showBehindGradient = false,

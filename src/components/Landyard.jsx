@@ -8,8 +8,8 @@ import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
 
 // replace with your own imports, see the usage snippet for details
 // import cardGLB from "./card.glb";
-import cardGLB from "../assets/test.glb"
-import lanyard from "../assets/testLanyard.png";
+// import cardGLB from "../assets/test.glb"
+// import lanyard from "../assets/testLanyard.png";
 
 import * as THREE from 'three';
 

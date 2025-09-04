@@ -52,11 +52,9 @@ export const About = () => {
           </h2>
           <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions. Tech Stack:
+              Passionate developer skilled in crafting scalable applications and innovative solutions, powered by the following technologies:
             </p>
 
-            {/* LogoLoop component is placed here, replacing the old skill boxes */}
             <div className="mt-8">
               <LogoLoop
                 logos={techLogos}
@@ -82,14 +80,14 @@ export const About = () => {
               </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-4">
                 <li>
-                  <strong>B.S in Computer Science</strong> - Tennessee State
-                  University (2022-2024)
+                  <strong>B.S in Computer Science</strong> - <span className="italic"> Tennessee State
+                  University (2022-2024) </span>
                 </li>
                 <li>
                   <strong>
-                    B.S Computer Science Minor in Applied Mathematics
-                  </strong>{" "}
-                  North Carolina A&T State University (2024-2027)
+                  B.S. in Computer Science, Minor in Applied Mathematics
+                  </strong> - 
+                  <span className="italic">North Carolina A&T State University (2024-2027)</span>
                 </li>
               </ul>
             </div>
@@ -110,15 +108,17 @@ export const About = () => {
                     June 2025 - August 2025
                   </p>
                   <p className="mt-2">
+                    <ul className="list-disc list-inside space-y-2">
                     <li>
-                    Designed and deployed an automated reporting bot that delivers Azure Front Door and Application Gateway metrics to Microsoft Teams daily, completed within one month using BigQuery, Cloud Scheduler, Terraform, and Cloud Run
+                    Designed and deployed an <span className="font-bold text-blue-400">automated reporting bot </span>that delivers Azure Front Door and Application Gateway metrics to Microsoft Teams daily, completed within <span className="font-bold text-blue-400">one month </span>using BigQuery, Cloud Scheduler, Terraform, and Cloud Run
                     </li>
                     <li>
-                    Led monitoring and security initiatives in Google Cloud Platform by managing VPC-SC tickets, enforcing geo-blocking on 85 applications, and engineering custom detectors with Google SecOps to identify unsecured service accounts. 
+                    Led monitoring and security initiatives in <span className="font-bold text-blue-400">Google Cloud Platform</span> by managing VPC-SC tickets, enforcing geo-blocking on <span className="font-bold text-blue-400">85 applications</span>, and engineering custom detectors with <span className="font-bold text-blue-400"> Google SecOps </span> to identify unsecured service accounts. 
                     </li>
                     <li>
                     Strengthened enterprise-wide security at Ford by enforcing policies that reduced vulnerabilities, mitigated risks, and ensured regulatory compliance. 
                     </li>
+                    </ul>
 </p>
                 </div>
                 <div>
@@ -129,12 +129,14 @@ export const About = () => {
                     June 2024 - August 2024
                   </p>
                   <p className="mt-2">
+                    <ul className="list-disc list-inside space-y-2">
                     <li>
-                    Migrated the Call Center website from SharePoint/Emplifi to Google Cloud Platform with Drupal, using ReactJS and TypeScript to ensure stability and accessibility.
+                    Migrated the Call Center website from <span className="font-bold text-blue-400">SharePoint/Emplifi</span> to Google Cloud Platform with Drupal, using <span className="font-bold text-blue-400"> ReactJS </span> and <span className="font-bold text-blue-400"> TypeScript </span> to ensure stability and accessibility.
                     </li>
                     <li>
-                    Built custom components and collaborated with a 5-member intern team to deliver a streamlined, user-friendly interface that enhanced navigation and overall user experience.
+                    Built custom components and collaborated with a <span className="font-bold text-blue-400"> 5-member </span> intern team to deliver a streamlined, user-friendly interface that enhanced navigation and overall user experience.
                     </li>
+                    </ul>
  </p>
                 </div>
               </div>

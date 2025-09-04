@@ -1,10 +1,14 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import Lanyard from "../Landyard";
+import ProfileCard from "@/components/ProfileCard";
 
 export const Home = () => {
   return (
     <RevealOnScroll>
-      <div id="home" className="min-h-screen flex items-center justify-center relative px-8">
+      <div
+        id="home"
+        className="min-h-screen flex items-center justify-center relative px-8"
+      >
         <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto">
           {/* Left side: intro */}
           <div className="text-left md:w-1/2 mb-12 md:mb-0">
@@ -12,11 +16,11 @@ export const Home = () => {
               Hi, I'm Imani.
             </h1>
             <p className="text-gray-400 text-lg mb-8 max-w-md">
-              I'm a junior honors student majoring in computer science with a minor
-              in applied math. In my free time, I enjoy working out and cooking food.
-              I also enjoy making websites, editing videos, and doing puzzles. My
-              dream is to own my own cyber security firm and have multiple other
-              investments.
+              I'm a junior honors student majoring in computer science with a
+              minor in applied math. In my free time, I enjoy working out and
+              cooking food. I also enjoy making websites, editing videos, and
+              doing puzzles. My dream is to own my own cyber security firm and
+              have multiple other investments.
             </p>
             <div className="flex space-x-4">
               <a
@@ -35,10 +39,17 @@ export const Home = () => {
           </div>
           {/* Right side: Lanyard */}
           <div className="md:w-1/2 min-h-[500px]">
-            <Lanyard
-              position={[0, 0, 20]}
-              gravity={[0, -40, 0]}
-              scale={[1.2, 1.2, 1.2]}
+            <ProfileCard
+              name="Imani Dinkins"
+              title="Computer Scientist"
+              handle="izdinkins"
+              status="Online"
+              contactText="Contact Me"
+              avatarUrl=""
+              showUserInfo={true}
+              enableTilt={true}
+              enableMobileTilt={false}
+              onContactClick={() => console.log("Contact clicked")}
             />
           </div>
         </div>

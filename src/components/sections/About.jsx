@@ -21,20 +21,20 @@ import {
 const techLogos = [
     // Google Cloud Platform, Java, Latex  
   {node: <SiReact />, title: "React", href: "https://react.dev" },
-  {node:<SiNodedotjs />, title: "NodeJS", href:""},
+  {node:<SiNodedotjs />, title: "NodeJS", href:"https://nodejs.org/en"},
   {node: <SiTypescript />, title: "TypeScript", href: "https://www.typescriptlang.org",},
   {node: <SiTailwindcss />,title: "Tailwind CSS",href: "https://tailwindcss.com",},
-  {node:<SiJavascript />, title: "Javascript", href:""},
-  {node:<SiPodman/>, title: "Podman", href:""},
-  {node:<SiDocker/>, title: "Docket", href:""},
-  {node:<SiJira />, title: "Jira", href:""},
-  {node:<SiMysql />, title: "MySql", href:""},
-  {node:<SiGithub />, title: "GitHub", href:""},
-  {node:<SiR />, title: "Rcode", href:""},
-  {node:<SiHtml5 />, title: "Html", href:""},
-  {node:<SiFirebase />, title: "Firebase", href:""},
-  {node:<SiPython />, title: "Python", href:""},
-  {node:<SiLatex />, title: "LaTex", href:""}
+  {node:<SiJavascript />, title: "Javascript", href:"https://playcode.io/"},
+  {node:<SiPodman/>, title: "Podman", href:"https://podman.io/"},
+  {node:<SiDocker/>, title: "Docket", href:"https://www.docker.com/"},
+  {node:<SiJira />, title: "Jira", href:"https://www.atlassian.com/software/jira"},
+  {node:<SiMysql />, title: "MySql", href:"https://www.mysql.com/"},
+  {node:<SiGithub />, title: "GitHub", href:"https://github.com/izdinkins"},
+  {node:<SiR />, title: "Rcode", href:"https://www.r-project.org/"},
+  {node:<SiHtml5 />, title: "Html", href:"https://html.spec.whatwg.org/"},
+  {node:<SiFirebase />, title: "Firebase", href:"https://firebase.google.com/"},
+  {node:<SiPython />, title: "Python", href:"https://www.python.org/"},
+  {node:<SiLatex />, title: "LaTex", href:"https://www.latex-project.org/"}
   
 ];
 

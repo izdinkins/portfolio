@@ -9,6 +9,7 @@ import { Home } from './components/sections/Home'
 import { About } from './components/sections/About'
 import { Projects } from './components/sections/Projects'
 import { Contact } from './components/sections/Contact'
+import Resume from './components/sections/Resume'
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false) 
@@ -24,6 +25,7 @@ function App() {
         <Home />
         <About/>
         <Projects/>
+        <Resume/>
         <Contact/>
 
         <footer className='w-full py-4 text-center text-sm  text-gray-400'>

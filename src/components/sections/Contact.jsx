@@ -93,7 +93,6 @@ export const Contact = () => {
                     ></path>
                   </svg>
                   Greensboro, NC & Rochester Hills,MI{" "}
-                  {/* Replace with Imani's location */}
                 </p>
               </div>
               {/* social media icons */}

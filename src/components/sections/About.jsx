@@ -87,7 +87,7 @@ export const About = () => {
                   <strong>
                   B.S. in Computer Science, Minor in Applied Mathematics
                   </strong> - 
-                  <span className="italic">North Carolina A&T State University (2024-2027)</span>
+                  <span className="italic"> North Carolina A&T State University (2024-Present)</span>
                 </li>
               </ul>
             </div>
